@@ -3,13 +3,8 @@ This repository contains the (a) R code (b) Tidy Data set (c) Code Book for the 
 
 Overview
 
-codebook.md describes the specific details of variables, values, and units in the tidy data set.
 
-The tidy_data_set.txt file in this directory is a tidy subset of the data provided in the Human Activity 
-
-Recognition Using Smartphones Data Set. T
-
-tidy_data_set.txt includes the combined test and training data sets from the following files:
+(1) The tidy_data_set.txt file in this directory is a tidy subset of the data provided in the Human Activity Recognition Using Smartphones Data Set. The tidy_data_set.txt includes the combined test and training data sets from the following files:
 
 subject_test.txt
 activity_labels.txt
@@ -20,13 +15,11 @@ X_train.txt
 y_train.txt
 
 
-codebook.md describes the tidy data set.
+(2) codebook.md describes the tidy data set.
 
-Description of run_analysis.R
+(3) Description of run_analysis.R
 
-run_analysis.R takes source data from the  Dataset directory, imports it into R, and converts it into a tidy 
-
-data subset.
+run_analysis.R takes source data from the  Dataset directory, imports it into R, and converts it into a tidy data subset.
 
 The script performs the following operations to import, clean, and transform the data set.
 
